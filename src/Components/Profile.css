@@ -1,0 +1,48 @@
+#btn{
+    border:none; 
+    padding-left:50px;
+    padding-right:50px; 
+    padding-top:10px; 
+    padding-bottom:10px; 
+
+}
+#profile{
+    margin-top:55px; 
+    color:white; 
+    
+}
+
+#drop{ 
+    color:white; 
+    font-size:bold; 
+    display:inline;
+}
+
+
+.logout{
+    margin-left:15%; 
+    margin-top:90%; 
+
+    font-size:bolder; 
+    font-size:20px; 
+    color:white; 
+
+
+
+}
+
+#btn:hover{
+    color:lightseagreen; 
+    cursor:pointer; 
+    transition:3s; 
+}
+#inp{
+    width:60%; 
+    color:black;
+}
+#key{
+
+    margin-top:100px; 
+     
+    
+}
