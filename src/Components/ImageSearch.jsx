@@ -53,7 +53,7 @@ const ImageSearch = () => {
                 <button type="submit">
                   <img
                     className="w-52 object-cover hover:scale-110 transition-all duration-300"
-                    src={`http://127.0.0.1:8000${product.image}`}
+                    src={`https://cheapfinder-api.onrender.com/${product.image}`}
                     alt={product.name}
                   />
                 </button>

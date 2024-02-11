@@ -19,7 +19,7 @@ const SearchHistory = () => {
             <div className="flex justify-center items-center py-2 md:py-5">
               <img
                 className="w-20 sm:w-36 md:w-52 object-cover hover:scale-110 transition-all duration-300 cursor-pointer"
-                src={`http://127.0.0.1:8000${product.product.image}`}
+                src={`https://cheapfinder-api.onrender.com/${product.product.image}`}
                 alt={product.product.name}
               />
             </div>
