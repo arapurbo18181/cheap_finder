@@ -18,7 +18,7 @@ export const ApiProvider = ({ children }) => {
   const [ImageSearchResult, setImageSearchResult] = useState([]);
   const location = useLocation();
 
-  const BASE_URL = "https://cheapfinder-api.onrender.com/api";
+  const BASE_URL = "http://ismamk.pythonanywhere.com/api";
 
   const checkAuthentication = async () => {
     const session = sessionStorage.getItem("session_id");
